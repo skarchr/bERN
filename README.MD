@@ -1,5 +1,5 @@
 
-# bEAN
+# bERN
 
 A simple boilerplate for ERN (express, react and node).
 
