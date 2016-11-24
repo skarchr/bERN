@@ -2,7 +2,7 @@
   "name": "heroku-react",
   "version": "1.0.0",
   "description": "React,Redux,Babel,Browserify,Express,Node",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "postinstall": "gulp",
     "start": "node server.js"
