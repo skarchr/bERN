@@ -10,6 +10,12 @@
   "author": "Christian Skar",
   "license": "MIT",
   "dependencies": {
+    "babelify": "^7.3.0",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
     "browserify": "^13.1.1",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
@@ -24,12 +30,6 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "devDependencies": {
-    "babel-plugin-transform-object-assign": "^6.8.0",
-    "babel-plugin-transform-object-rest-spread": "^6.19.0",
-    "babel-polyfill": "^6.16.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-react": "^6.16.0",
-    "babelify": "^7.3.0",
     "child_process": "^1.0.2",
     "gulp-util": "^3.0.7"
   }
