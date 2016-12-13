@@ -4,9 +4,7 @@
   "description": "React,Redux,Babel,Browserify,Express,Node",
   "main": "server.js",
   "scripts": {
-    "postinstall":"npm install -g uglify-js & npm build",
-    "build": "browserify ./public/scripts/app.js -t babelify --outfile ./public/bundle.js & npm run minify",
-    "minify":"uglifyjs ./public/bundle.js --output ./public/bundle.js",
+    "postinstall": "browserify ./public/scripts/app.js -t babelify --outfile ./public/bundle.js",
     "start": "node server.js"
   },
   "author": "Christian Skar",
