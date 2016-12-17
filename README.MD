@@ -1,5 +1,6 @@
 
 # bERN
+[![Build Status](https://travis-ci.org/skarchr/bERN.svg?branch=master)](https://travis-ci.org/skarchr/bERN)
 
 A simple boilerplate for ERN (express, react and node).
 
